@@ -1,0 +1,116 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: "Raleway";
+}
+
+.encabezado {
+  background-color: black;
+  background-image: url("../img/bg-header.jpg");
+  padding-bottom: 50%;
+  font-size: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 2em;
+}
+.titulo {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: medium;
+}
+.seccion-desc {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10% 5%;
+}
+
+.seccion-desc__texto {
+  font-weight: lighter;
+  color: white;
+  width: 60%;
+}
+
+.seccion-desc__imagen {
+  width: 50%;
+  padding: 1%;
+  margin-left: 5%;
+  justify-content: right;
+}
+
+.art-iconos {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  background-color: #1e1a13;
+  padding: 20px;
+}
+.art-iconos__titulo {
+  text-align: center;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: medium;
+}
+.art-iconos__fila-iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.art-iconos__columna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  margin: 10px 40px;
+}
+
+.fa {
+  font-size: 60px;
+}
+
+.line {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.colladge {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.foto_2 img,
+.foto_3 img,
+.foto_4 img {
+  top: auto;
+  max-width: 95%;
+  height: auto;
+  padding: 5% 5%;
+}
+
+footer {
+  background-color: #1e1a13;
+  text-align: center;
+  height: 3em;
+  line-height: 3em;
+}
+footer a {
+  font-weight: medium;
+  color: #ffffff;
+  align-content: center;
+  text-decoration: solid;
+}
